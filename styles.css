@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.country {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    transition: transform 0.3s ease;
+}
+
+.country:hover {
+    transform: translateY(-5px);
+}
+
+.country h2 {
+    color: #007bff;
+    margin-top: 0;
+}
+
+.country p {
+    margin: 5px 0;
+}
+
+.country ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.country li {
+    margin-bottom: 5px;
+}
+
+.country li:first-child {
+    margin-top: 5px;
+}
+
+.country li strong {
+    color: #555;
+}
+
+/* Add a gradient background to the header */
+header {
+    background: linear-gradient(to right, #333, #007bff);
+}
+
+/* Add hover effect to h2 elements */
+.country h2:hover {
+    color: #0056b3;
+}
+
+/* Add border radius and padding to list items */
+.country ul li {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Change background color on hover for list items */
+.country ul li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
